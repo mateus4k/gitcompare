@@ -1,16 +1,14 @@
+/* eslint-disable no-unused-expressions */
 import React from 'react';
-import styled from 'styled-components';
 import GlobalStyle from './styles/global';
 
-function App() {
-  return (
-    <>
-      <GlobalStyle />
-      <div className="App">
-        <h1>Hello World</h1>
-      </div>
-    </>
-  );
-}
+import Main from './pages/Main';
+
+const App = () => (
+  <>
+    <GlobalStyle />
+    <Main />
+  </>
+);
 
 export default App;
