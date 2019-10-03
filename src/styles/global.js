@@ -1,4 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
+
+import 'font-awesome/css/font-awesome.css'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -13,6 +15,6 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     font-family: sans-serif;
   }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle
