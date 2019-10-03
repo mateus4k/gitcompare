@@ -1,11 +1,11 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
-`
+`;
 
 export const Repository = styled.div`
   width: 250px;
@@ -48,6 +48,7 @@ export const Repository = styled.div`
         font-size: 12px;
         color: #999;
         font-style: italic;
+        margin-left: 2px;
       }
 
       &:nth-child(2n - 1) {
@@ -55,4 +56,4 @@ export const Repository = styled.div`
       }
     }
   }
-`
+`;
