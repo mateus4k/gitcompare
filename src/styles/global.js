@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
-import 'font-awesome/css/font-awesome.css'
+import 'font-awesome/css/font-awesome.css';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -10,11 +10,11 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
   }
   body {
-    background: #9b65e6;
+    background: #7159c1;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     font-family: sans-serif;
   }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;
